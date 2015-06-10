@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, height=device-height">
 </head>
 <body>
 	<header>
@@ -70,7 +71,6 @@
  <div class="footer">
   <div class="container">
   	<div class="col-xs-12 col-sm-6">
-	<div class="col-xs-6">
 		<%= link_to "This isn't enough, I need more", root_path, :class => 'next-quote' %>
 	</div>
 	<div class="col-xs-12 col-sm-6 footer-blurb">
